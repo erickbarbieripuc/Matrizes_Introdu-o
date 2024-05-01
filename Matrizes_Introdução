@@ -1,0 +1,53 @@
+#Sempre colocar antes de fazer uma matriz o código abaixo
+import numpy as np 
+
+#arr = np.array([1,2,3,4,5])
+
+#matrix = np.array  ([[1,2,3],
+#                    [4,5,6,],
+#                    [7,8,9]])
+#print(matrix)
+
+#Mariz só de 0
+#m = np.zeros((2,3))
+#print(m)
+
+#Matriz só de 1
+#m = np.ones((3,2))
+#print(m)
+
+#m = np.eye(3)
+#print(m)
+
+#aleatorio = np.random.rand(2,2)
+#print(aleatorio)
+
+#Definir matriz
+#linhas = 3
+#colunas = 3
+#matriz = []
+
+#for i in range(linhas):
+#    linha = []
+#    for j in range(colunas):
+#        elemento = float(input(f"Digite um elemento para a posição ({i},{j}):"))
+#        linha.append(elemento)
+#    matriz.append(linha)
+#    
+#matriz_np = np.array(matriz)
+#print(matriz_np)
+
+#Definindo uma matriz com base em um calculo aleatorio
+#linhas = 15
+#colunas = 15
+#matriz = []
+
+#for i in range(linhas):
+#    linha = []
+#    for j in range(colunas):
+#        elemento = 2*i+j
+#        linha.append(elemento)
+#    matriz.append(linha)
+#   
+#matriz_np = np.array(matriz)
+#print(matriz_np)
